@@ -28,9 +28,16 @@ gotchas
 Run console in Admin mode, remove any spaces on the directories
 choco install OpenCV -y
 SET OPENCV4NODEJS_DISABLE_AUTOBUILD = 1
-pnpm install @u4/opencv4nodejs
+npm install @u4/opencv4nodejs
 npm rebuild @tensorflow/tfjs-node --build-addon-from-source
 npm rebuild tfjs-tflite-node --build-addon-from-source
+
+choco list --lo -e OpenCV
+set OPENCV_INCLUDE_DIR=C:\tools\opencv\build\include
+set OPENCV_LIB_DIR=C:\tools\opencv\build\x64\vc16\lib
+set OPENCV_BIN_DIR=C:\tools\opencv\build\x64\vc16\bin
+set PATH=%PATH%;%OPENCV_BIN_DIR%;
+set OPENCV4NODEJS_AUTOBUILD_OPENCV_VERSION=4.13.0
 ```
 
 https://github.com/justadudewhohacks/opencv4nodejs/issues/733<br>
