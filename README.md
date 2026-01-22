@@ -32,3 +32,7 @@ pnpm install @u4/opencv4nodejs
 npm rebuild @tensorflow/tfjs-node --build-addon-from-source
 npm rebuild tfjs-tflite-node --build-addon-from-source
 ```
+
+https://github.com/justadudewhohacks/opencv4nodejs/issues/733<br>
+https://github.com/UrielCh/opencv4nodejs/issues/174
+
