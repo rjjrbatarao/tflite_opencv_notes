@@ -38,6 +38,8 @@ set OPENCV_LIB_DIR=C:\tools\opencv\build\x64\vc16\lib
 set OPENCV_BIN_DIR=C:\tools\opencv\build\x64\vc16\bin
 set PATH=%PATH%;%OPENCV_BIN_DIR%;
 set OPENCV4NODEJS_AUTOBUILD_OPENCV_VERSION=4.13.0
+
+npm i -g --save opencv4nodejs
 ```
 
 https://github.com/justadudewhohacks/opencv4nodejs/issues/733<br>
