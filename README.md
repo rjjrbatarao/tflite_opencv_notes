@@ -34,7 +34,7 @@ npm rebuild tfjs-tflite-node --build-addon-from-source
 
 choco list --lo -e OpenCV
 set OPENCV_INCLUDE_DIR=C:\tools\opencv\build\include
-set OPENCV_LIB_DIR=C:\tools\opencv\build\x64\vc16\lib
+set OPENCV_LIB_DIR="C:\\tools\\opencv\\build\\x64\\vc16\\lib"
 set OPENCV_BIN_DIR=C:\tools\opencv\build\x64\vc16\bin
 set PATH=%PATH%;%OPENCV_BIN_DIR%;
 set OPENCV4NODEJS_AUTOBUILD_OPENCV_VERSION=4.13.0
