@@ -1,6 +1,11 @@
 # tflite_opencv_notes
 gotchas
 
+## Tutorials
+```
+https://mrousavy.com/blog/Reinventing-Camera-Processing
+```
+
 ## Package.js
 ```json
 {
