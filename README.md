@@ -47,6 +47,13 @@ set OPENCV4NODEJS_AUTOBUILD_OPENCV_VERSION=4.13.0
 npm i -g --save opencv4nodejs
 ```
 
+## Issues with node > 6 version on opencv install
+```
+https://github.com/justadudewhohacks/opencv4nodejs/issues/796
+```
+
+## Sources
+
 https://github.com/justadudewhohacks/opencv4nodejs/issues/733<br>
 https://github.com/UrielCh/opencv4nodejs/issues/174
 
