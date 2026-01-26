@@ -32,7 +32,7 @@ https://mrousavy.com/blog/Reinventing-Camera-Processing
 ```
 Run console in Admin mode, remove any spaces on the directories
 choco install OpenCV -y
-SET OPENCV4NODEJS_DISABLE_AUTOBUILD = 1
+set OPENCV4NODEJS_DISABLE_AUTOBUILD=1
 npm install @u4/opencv4nodejs
 npm rebuild @tensorflow/tfjs-node --build-addon-from-source
 npm rebuild tfjs-tflite-node --build-addon-from-source
